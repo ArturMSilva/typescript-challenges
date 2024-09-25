@@ -3,14 +3,14 @@
 // , sem diferenciar maiúsculas de minúsculas.
 // Caso qualquer um dos parâmetros não seja do tipo string, a função deve retornar null.
 
-function countCharacter(palavra:string, caractere:string) {
-    if (typeof palavra !== "string" || typeof caractere !== "string") return null
+function countCharacter(palavra: string, caractere: string) {
+  if (typeof palavra !== "string" || typeof caractere !== "string") return null;
 
-    let contador = 0
-    for (const letra of palavra) {
-        if (letra.toLowerCase() === caractere.toLowerCase()) contador++
-    }
-    return contador
-} 
+  let contador = 0;
+  for (const letra of palavra) {
+    if (letra.toLowerCase() === caractere.toLowerCase()) contador++;
+  }
+  return contador;
+}
 
-console.log(countCharacter("Alemanha", "a")) // 3
+console.log(countCharacter("Alemanha", "a")); // 3
