@@ -6,7 +6,7 @@ Criar uma classe chamada `ContaBancaria` que gerencia as contas bancárias, perm
 
 ## Requisitos
 
-### Classe ContaBancaria
+## Classe ContaBancaria
 
 #### Propriedades:
 
@@ -22,7 +22,7 @@ Criar uma classe chamada `ContaBancaria` que gerencia as contas bancárias, perm
 
 - **consultarSaldo(): number** (público) - Retorna o saldo atual da conta. Este método deve permitir que o titular veja seu saldo.
 
-### Classe ContaPoupanca (extensão de ContaBancaria)
+## Classe ContaPoupanca (extensão de ContaBancaria)
 
 #### Propriedade adicional:
 
